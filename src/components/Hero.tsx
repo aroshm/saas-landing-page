@@ -3,7 +3,7 @@ import HeroRightImg from "../assets/hero-right-img.svg";
 import { MdCheckCircle } from "react-icons/md";
 const Hero = () => {
   return (
-    <section className="relative max-w-1920 mx-auto py-20 overflow-hidden border-b border-b-gray-200">
+    <section className="relative max-w-1920 mx-auto pt-20 pb-0 overflow-hidden border-b border-b-gray-200 md:pb-20">
       <img
         src={HeroBg}
         alt=""
@@ -22,7 +22,7 @@ const Hero = () => {
             Never at water me might. On formed merits hunted unable merely by mr
             whence or. Possession the unpleasing simplicity her uncommonly.
           </p>
-          <form className="flex flex-wrap gap-2  px-5 py-4 mb-10 bg-white shadow md:w-9/10 md:mb-14">
+          <form className="flex flex-wrap gap-2 px-5 py-4 mb-10 bg-white shadow md:w-9/10 md:mb-14">
             <div className="flex flex-col flex-1 justify-between w-full">
               <label htmlFor="register-email" className="mb-1.5 text-gray-600">
                 Register using email address

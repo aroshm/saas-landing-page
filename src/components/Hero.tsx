@@ -42,11 +42,11 @@ const Hero = () => {
           </form>
           <div className="flex gap-7">
             <div className="flex items-center gap-1.5">
-              <MdCheckCircle className="text-indigo-500 text-xl" />
+              <MdCheckCircle className="text-indigo-600 text-xl" />
               <span className="text-hero-text">Free Register</span>
             </div>
             <div className="flex items-center gap-1.5">
-              <MdCheckCircle className="text-indigo-500 text-xl" />
+              <MdCheckCircle className="text-indigo-600 text-xl" />
               <span className="text-hero-text">Great Service</span>
             </div>
           </div>

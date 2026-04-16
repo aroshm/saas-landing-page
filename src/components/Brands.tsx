@@ -18,7 +18,7 @@ const brandLogos = [
 
 const Brands = () => {
   return (
-    <section className="px-6 py-16 text-center border-b border-b-gray-200">
+    <section className="relative max-w-1920 mx-auto px-6 py-16 text-center border-b border-b-gray-200">
       <p className="text-xl mb-10">
         Over 32k+ software businesses growing with FlowAI
       </p>
@@ -37,6 +37,8 @@ const Brands = () => {
           ))}
         </ul>
       </div>
+
+      
     </section>
   );
 };

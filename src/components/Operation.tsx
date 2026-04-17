@@ -47,7 +47,7 @@ const Operation = () => {
             thoughts all exercise blessing. Indulgence way everything joy.
           </p>
 
-          <button className="mt-6 bg-indigo-600 text-white px-6 py-3 rounded-4xl">
+          <button className="mt-6 bg-indigo-600 text-white px-6 py-3 rounded-4xl cursor-pointer">
             Get Started
           </button>
         </div>
@@ -56,7 +56,7 @@ const Operation = () => {
           <img
             src={OperationCurve}
             alt="operation curve"
-            className="absolute hidden md:block md:-top-35 left-0 w-full lg:-top-65"
+            className="absolute hidden md:block md:-top-35 left-0 w-full lg:-top-65 -z-1"
           />
 
           {STEPS.map((step) => (

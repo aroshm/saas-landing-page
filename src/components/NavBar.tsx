@@ -25,9 +25,15 @@ const NavBar = () => {
           </div>
 
           <div className="gap-8 text-gray-600 font-semibold hidden md:flex">
-            <a href="#">Features</a>
-            <a href="#">Pricing</a>
-            <a href="#">About</a>
+            <a className="cursor-pointer" href="#">
+              Features
+            </a>
+            <a className="cursor-pointer" href="#">
+              Pricing
+            </a>
+            <a className="cursor-pointer" href="#">
+              About
+            </a>
           </div>
 
           <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
@@ -35,8 +41,8 @@ const NavBar = () => {
           </button>
 
           <div className="flex gap-8 font-semibold">
-            <button className="text-gray-600">Login</button>
-            <button className="px-4 py-2 rounded-lg bg-indigo-600 text-white">
+            <button className="text-gray-600 cursor-pointer">Login</button>
+            <button className="px-4 py-2 rounded-lg bg-indigo-600 text-white cursor-pointer ">
               Sign Up
             </button>
           </div>

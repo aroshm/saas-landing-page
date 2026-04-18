@@ -9,9 +9,11 @@ interface GrowCardProps {
 
 const GrowCard: React.FC<GrowCardProps> = ({ imgSrc, title, subtitle }) => {
   return (
-    <div className="flex-1 px-8 py-9 bg-white rounded-3xl">
+    <div className="flex-1 px-4 py-3 lg:px-8 lg:py-9 bg-white rounded-3xl shadow-lg lg:shadow-none">
       <img src={imgSrc} alt="" />
-      <h4 className="font-bold text-2xl leading-14">{title}</h4>
+      <h4 className="mb-2.5 lg:mb-0 font-bold text-2xl leading-7 lg:leading-14">
+        {title}
+      </h4>
       <p className="mb-5 text-hero-text">{subtitle}</p>
       <Link to="#" className="flex items-center gap-2 text-emerald-600">
         Read More <MdArrowForward />

@@ -3,6 +3,7 @@
 @theme {
   --color-hero-text: #757095;
   --spacing-1920: 1920px;
+  --breakpoint-flowai: 90rem;
 }
 
 body {

@@ -9,7 +9,7 @@ const STEPS = [
     description:
       "Party we years to order allow asked of. We so opinion friends me message as delight.",
     className:
-      "relative md:absolute md:top-15 md:left-10 lg:top-10 lg:left-20 xl:top-19 xl:left-20 2xl:top-29 2xl:left-40",
+      "relative md:absolute md:top-15 md:left-10 lg:top-16 lg:left-40 xl:top-19 xl:left-20 flowai:top-15 flowai:left-27",
   },
   {
     itemNumber: "2",
@@ -17,7 +17,7 @@ const STEPS = [
     description:
       "His defective nor convinced residence own. Connection has put impossible own apartments boisterous.",
     className:
-      "relative md:absolute md:top-0 md:left-70 lg:-top-18 lg:left-110 xl:-top-10 xl:left-125 2xl:-top-9 2xl:left-160",
+      "relative md:absolute md:top-0 md:left-70 lg:-top-18 lg:left-120 xl:-top-10 xl:left-125 flowai:-top-15 flowai:left-140",
   },
   {
     itemNumber: "3",
@@ -25,7 +25,7 @@ const STEPS = [
     description:
       "From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly.",
     className:
-      "relative md:absolute md:-top-23 md:right-0 lg:-top-60 xl:-top-45 xl:right-0 2xl:-top-72 2xl:-right-38",
+      "relative md:absolute md:-top-23 md:right-0 lg:-top-60 xl:-top-45 xl:right-0 flowai:-top-72 flowai:-right-12",
   },
 ] as const;
 
@@ -56,7 +56,7 @@ const Operation = () => {
           <img
             src={OperationCurve}
             alt="operation curve"
-            className="absolute hidden md:block md:-top-35 left-0 w-full lg:-top-65 -z-1"
+            className="absolute hidden md:block md:-top-35 left-0 w-full flowai:w-9/10 lg:-top-65 -z-1"
           />
 
           {STEPS.map((step) => (

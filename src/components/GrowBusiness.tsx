@@ -30,10 +30,10 @@ const GrowBusiness = () => {
   return (
     <section className="relative max-w-1920 mx-auto pb-40">
       <div
-        className="absolute top-50 left-0 -z-10 h-full w-full bg-auto bg-top bg-no-repeat"
+        className="absolute top-40 left-0 -z-10 h-full w-full bg-contain bg-top bg-no-repeat"
         style={{ backgroundImage: `url("${GrowBg}")` }}
       />
-      <div className="relative mx-auto w-207.5">
+      <div className="relative mx-auto w-207.5 max-w-8/10">
         <img src={NextLevelImg} alt="" className="" />
         <div className="absolute left-0 top-0 flex flex-col justify-center items-center w-full h-full text-center text-white">
           <h3 className="text-[42px] font-bold">
@@ -57,7 +57,7 @@ const GrowBusiness = () => {
           Why kept very ever home mrs. Considered sympathize ten uncommonly
           occasional assistance sufficient.
         </p>
-        <div className="flex justify-between gap-7 pt-16">
+        <div className="flex flex-col md:flex-row md:flex-wrap justify-center gap-7 pt-16">
           {GrowItems.map((item) => (
             <GrowCard
               key={item.title}

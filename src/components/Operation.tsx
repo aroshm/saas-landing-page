@@ -31,7 +31,7 @@ const STEPS = [
 
 const Operation = () => {
   return (
-    <section className="relative max-w-1920 mx-auto py-16 md:py-27 md:h-208">
+    <section className="relative max-w-1920 mx-auto py-10 md:py-27 md:h-208">
       <div className="max-w-6xl mx-auto px-6">
         <div className="md:w-3/5 lg:w-2/5">
           <p className="text-indigo-600 text-sm font-medium">

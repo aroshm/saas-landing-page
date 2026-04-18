@@ -3,7 +3,6 @@ import GrowCard from "./GrowCard";
 import Throphy from "../assets/throphy.svg";
 import Tulip from "../assets/tulip.svg";
 import Sun from "../assets/sun.svg";
-import GrowBg from "../assets/grow-bg.svg";
 
 const GrowItems = [
   {
@@ -28,18 +27,21 @@ const GrowItems = [
 
 const GrowBusiness = () => {
   return (
-    <section className="relative max-w-1920 mx-auto pb-40">
-      <div
-        className="absolute top-40 left-0 -z-10 h-full w-full bg-contain bg-top bg-no-repeat"
-        style={{ backgroundImage: `url("${GrowBg}")` }}
-      />
-      <div className="relative mx-auto w-207.5 max-w-8/10">
+    <section
+      className="relative max-w-1920 mx-auto bg-[#f5f8ff]
+  before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-75
+  before:bg-white before:[clip-path:ellipse(88%_100%_at_50%_0%)] md:before:[clip-path:ellipse(75%_100%_at_50%_0%)]
+
+  after:content-[''] after:absolute after:-bottom-20 after:left-0 after:w-full after:h-20
+  after:bg-[#f5f8ff] after:[clip-path:ellipse(72%_100%_at_50%_0%)] md:after:[clip-path:ellipse(55%_100%_at_50%_0%)]"
+    >
+      <div className="relative mx-auto w-207.5 max-w-9/10">
         <img src={NextLevelImg} alt="" className="" />
-        <div className="absolute left-0 top-0 flex flex-col justify-center items-center w-full h-full text-center text-white">
-          <h3 className="text-[42px] font-bold">
+        <div className="relative md:absolute left-0 top-0 flex flex-col justify-center items-center w-full h-full text-center text-white">
+          <h3 className="text-[42px] font-bold text-black md:text-white">
             Push your product to next level.
           </h3>
-          <p className="text-xl w-7/10 mb-5">
+          <p className="text-xl w-7/10 mb-5 text-black md:text-white">
             End-to-end payments and financial management in a single solution.
             Meet the right platform to help realize.
           </p>
@@ -49,7 +51,7 @@ const GrowBusiness = () => {
         </div>
       </div>
 
-      <div className="max-w-6xl mx-auto px-6 pt-32">
+      <div className="max-w-6xl mx-auto px-6 pt-15 md:pt-32">
         <h3 className="mb-3.5 text-[42px] font-bold text-center">
           We help your business grow faster.
         </h3>

@@ -2,6 +2,7 @@
 
 @theme {
   --color-hero-text: #757095;
+  --color-custom-grey: #f5f8ff;
   --spacing-1920: 1920px;
   --breakpoint-flowai: 90rem;
 }

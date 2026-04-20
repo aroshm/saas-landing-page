@@ -4,37 +4,7 @@ import { Navigation } from "swiper/modules";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 import "swiper/css";
 import "swiper/css/navigation";
-import TestimonialImg1 from "../assets/testimg-1.png";
-import TestimonialImg2 from "../assets/testimg2.png";
-import TestimonialImg3 from "../assets/testimg3.png";
-import SegmentLogo from "../assets/segment-logo.png";
-
-const TestimonialList = [
-  {
-    testimonialImg: TestimonialImg1,
-    testimonialContent:
-      "Is be upon sang fond must shew. Really boy law county she unable her amber. friends you off its like like six. Among sex are leave law built now.",
-    testimonialName: "AR Shakir",
-    testimonialPosition: "CEO GetNextDesign",
-    testimonialLogo: SegmentLogo,
-  },
-  {
-    testimonialImg: TestimonialImg2,
-    testimonialContent:
-      "Is be upon sang fond must shew. Really boy law county she unable her amber. friends you off its like like six. Among sex are leave law built now.",
-    testimonialName: "AR Shakir",
-    testimonialPosition: "CEO GetNextDesign",
-    testimonialLogo: SegmentLogo,
-  },
-  {
-    testimonialImg: TestimonialImg3,
-    testimonialContent:
-      "Is be upon sang fond must shew. Really boy law county she unable her amber. friends you off its like like six. Among sex are leave law built now.",
-    testimonialName: "AR Shakir",
-    testimonialPosition: "CEO GetNextDesign",
-    testimonialLogo: SegmentLogo,
-  },
-] as const;
+import { testimonials } from "../data/testimonials";
 
 const Testimonials = () => {
   return (
@@ -74,7 +44,7 @@ const Testimonials = () => {
             }}
             modules={[Navigation]}
           >
-            {TestimonialList.map((item) => (
+            {testimonials.map((item) => (
               <SwiperSlide key={item.testimonialImg}>
                 <TestimonialItem
                   testimonialImg={item.testimonialImg}

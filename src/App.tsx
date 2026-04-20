@@ -5,6 +5,7 @@ import GrowBusiness from "./components/GrowBusiness";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import Operation from "./components/Operation";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <Brands />
       <Operation />
       <GrowBusiness />
-      <Services/>
+      <Services />
+      <Testimonials />
     </>
   );
 }

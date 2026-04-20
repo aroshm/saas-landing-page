@@ -30,10 +30,10 @@ const Services = () => {
         <div className="flex flex-col gap-7 lg:flex-row pt-14 md:pt-24 lg:pt-32">
           <ServiceCard
             title="Offend belong promote provision"
-            subTitle="Wise busy past both park when an ye no. Nay likely her length sooner thrown sex lively income. "
+            subTitle="Wise busy past both park when an ye no. Nay likely her length sooner thrown text lively income. "
           />
           <ServiceCard
-            title="Consulted ourselves it blessing welcom"
+            title="Consulted ourselves it blessing welcome"
             subTitle="The expense windows adapted sir. Wrong widen drawn ample eat off doors money."
           />
         </div>

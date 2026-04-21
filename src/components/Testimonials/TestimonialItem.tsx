@@ -20,7 +20,7 @@ const TestimonialItem: React.FC<TestimonialItemProps> = ({
 }) => {
   return (
     <div className="flex flex-col gap-10 md:flex-row md:items-center md:gap-12">
-      <div className="mx-auto w-full max-w-[26rem] shrink-0">
+      <div className="mx-auto w-full max-w-104 shrink-0">
         <img
           src={testimonialImg}
           alt="Testimonial Img"

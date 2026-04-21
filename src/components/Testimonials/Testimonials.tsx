@@ -4,7 +4,7 @@ import { Navigation } from "swiper/modules";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 import "swiper/css";
 import "swiper/css/navigation";
-import { testimonials } from "../data/testimonials";
+import { testimonials } from "../../data/testimonials";
 
 const Testimonials = () => {
   return (

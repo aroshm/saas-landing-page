@@ -1,6 +1,6 @@
-import StarBox from "../assets/star-box.svg";
-import CertifiedBox from "../assets/certified-box.svg";
-import LightBox from "../assets/light-box.svg";
+import StarBox from "../../assets/star-box.svg";
+import CertifiedBox from "../../assets/certified-box.svg";
+import LightBox from "../../assets/light-box.svg";
 import ServiceCard from "./ServiceCard";
 
 const Services = () => {

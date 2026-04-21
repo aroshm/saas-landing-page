@@ -1,8 +1,8 @@
-import NextLevelImg from "../assets/next-level.png";
+import NextLevelImg from "../../assets/next-level.png";
 import GrowCard from "./GrowCard";
-import Throphy from "../assets/throphy.svg";
-import Tulip from "../assets/tulip.svg";
-import Sun from "../assets/sun.svg";
+import Throphy from "../../assets/throphy.svg";
+import Tulip from "../../assets/tulip.svg";
+import Sun from "../../assets/sun.svg";
 
 const GrowItems = [
   {

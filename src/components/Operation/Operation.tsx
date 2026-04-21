@@ -1,5 +1,5 @@
-import OperationCurve from "../assets/operation-curve.svg";
-import OperationBg from "../assets/operation-circle-bg.svg";
+import OperationCurve from "../../assets/operation-curve.svg";
+import OperationBg from "../../assets/operation-circle-bg.svg";
 import StepCard from "./StepCard";
 
 const STEPS = [

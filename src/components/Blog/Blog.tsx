@@ -1,6 +1,6 @@
 import BlogCardLg from "./BlogCardLg";
 import BlogCardSm from "./BlogCardSm";
-import { getPost } from "../api/posts";
+import { getPost } from "../../api/posts";
 import { useEffect, useState } from "react";
 
 interface Post {
@@ -34,7 +34,9 @@ const Blog = () => {
     <section className="py-20">
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex flex-col justify-between items-start mb-12 md:flex-row md:items-center">
-          <h2 className="text-[42px] font-bold mb-2.5">Our Latest Blog Posts</h2>
+          <h2 className="text-[42px] font-bold mb-2.5">
+            Our Latest Blog Posts
+          </h2>
           <button className="bg-indigo-600 text-white px-6 py-3 rounded-lg">
             See All Blog Posts
           </button>

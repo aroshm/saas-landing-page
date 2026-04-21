@@ -1,13 +1,13 @@
 import "./App.scss";
-import Services from "./components/Services";
+import Services from "./components/Services/Services";
 import Brands from "./components/Brands";
 import DownloadApp from "./components/DownloadApp";
-import GrowBusiness from "./components/GrowBusiness";
+import GrowBusiness from "./components/Grow/GrowBusiness";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
-import Operation from "./components/Operation";
-import Testimonials from "./components/Testimonials";
-import Blog from "./components/Blog";
+import Operation from "./components/Operation/Operation";
+import Testimonials from "./components/Testimonials/Testimonials";
+import Blog from "./components/Blog/Blog";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
       <Services />
       <Testimonials />
       <DownloadApp />
-      <Blog/>
+      <Blog />
     </>
   );
 }

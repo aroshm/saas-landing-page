@@ -16,24 +16,24 @@ export const testimonials: Testimonial[] = [
     testimonialImg: TestimonialImg1,
     testimonialContent:
       "Is be upon sang fond must shew. Really boy law county she unable her amber. friends you off its like like six. Among sex are leave law built now.",
-    testimonialName: "AR Shakir",
-    testimonialPosition: "CEO GetNextDesign",
+    testimonialName: "Lana Peters",
+    testimonialPosition: "CTO SmartWay",
     testimonialLogo: SegmentLogo,
   },
   {
     testimonialImg: TestimonialImg2,
     testimonialContent:
       "Is be upon sang fond must shew. Really boy law county she unable her amber. friends you off its like like six. Among sex are leave law built now.",
-    testimonialName: "AR Shakir",
-    testimonialPosition: "CEO GetNextDesign",
+    testimonialName: "Maddie Williams",
+    testimonialPosition: "CEO StepUp",
     testimonialLogo: SegmentLogo,
   },
   {
     testimonialImg: TestimonialImg3,
     testimonialContent:
       "Is be upon sang fond must shew. Really boy law county she unable her amber. friends you off its like like six. Among sex are leave law built now.",
-    testimonialName: "AR Shakir",
-    testimonialPosition: "CEO GetNextDesign",
+    testimonialName: "Willow Sanders",
+    testimonialPosition: "GM ApexDesign",
     testimonialLogo: SegmentLogo,
   },
 ];

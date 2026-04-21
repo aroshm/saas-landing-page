@@ -8,6 +8,7 @@ import NavBar from "./components/NavBar";
 import Operation from "./components/Operation/Operation";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Blog from "./components/Blog/Blog";
+import WhyChooseUs from "./components/WhyChooseUs";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Testimonials />
       <DownloadApp />
       <Blog />
+      <WhyChooseUs />
     </>
   );
 }

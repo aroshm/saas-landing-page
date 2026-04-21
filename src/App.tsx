@@ -2,6 +2,7 @@ import "./App.scss";
 import Services from "./components/Services/Services";
 import Brands from "./components/Brands";
 import DownloadApp from "./components/DownloadApp";
+import Footer from "./components/Footer";
 import GrowBusiness from "./components/Grow/GrowBusiness";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
@@ -23,6 +24,7 @@ function App() {
       <DownloadApp />
       <Blog />
       <WhyChooseUs />
+      <Footer />
     </>
   );
 }

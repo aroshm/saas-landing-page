@@ -12,7 +12,7 @@ const BlogCardSm: React.FC<BlogCardSmProps> = ({
   category,
 }) => {
   return (
-    <div className="flex gap-4 items-center py-4 border-b border-b-gray-500">
+    <div className="flex gap-4 items-center py-4 border-b border-gray-300">
       <img src={image} className="w-16 h-16 rounded-lg object-cover" />
 
       <div>

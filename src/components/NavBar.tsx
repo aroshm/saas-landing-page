@@ -2,6 +2,13 @@ import { useEffect, useState } from "react";
 import Logo from "../assets/flow-ai-logo.png";
 import { MdMenu, MdOutlineClose } from "react-icons/md";
 
+const COMPANY_LINKS = [
+  "Our Process",
+  "Grow With Us",
+  "Services",
+  "Testimonials",
+] as const;
+
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -25,15 +32,11 @@ const NavBar = () => {
           </div>
 
           <div className="gap-8 text-gray-600 font-semibold hidden md:flex">
-            <a className="cursor-pointer" href="#">
-              Features
-            </a>
-            <a className="cursor-pointer" href="#">
-              Pricing
-            </a>
-            <a className="cursor-pointer" href="#">
-              About
-            </a>
+            {COMPANY_LINKS.map((link) => (
+              <a key={link} className="cursor-pointer" href="#">
+                {link}
+              </a>
+            ))}
           </div>
 
           <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
@@ -50,15 +53,11 @@ const NavBar = () => {
       </nav>
       {isOpen && (
         <div className="px-6 py-4 space-y-4 text-gray-600 bg-white border-t md:hidden">
-          <a href="#" className="block">
-            Features
-          </a>
-          <a href="#" className="block">
-            Pricing
-          </a>
-          <a href="#" className="block">
-            About
-          </a>
+          {COMPANY_LINKS.map((link) => (
+            <a key={link} href="#" className="block">
+              {link}
+            </a>
+          ))}
         </div>
       )}
     </>

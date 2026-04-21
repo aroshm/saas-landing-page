@@ -2,8 +2,8 @@ const WhyChooseUs = () => {
   return (
     <section className="max-w-1920 mx-auto py-20 bg-slate-900">
       <div className="flex flex-col md:flex-row items-center justify-between gap-4 max-w-6xl mx-auto px-6">
-        <p className="flex-1 text-[42px] font-bold text-white">
-          Start your free trial. No credit card required.
+        <p className="flex-1 text-[42px] font-bold text-white text-center md:text-left">
+          Join Our Newsletter
         </p>
         <div className="flex flex-col lg:flex-row flex-1 justify-end gap-2">
           <input

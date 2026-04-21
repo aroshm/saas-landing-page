@@ -1,6 +1,6 @@
 const WhyChooseUs = () => {
   return (
-    <section className="max-w-1920 mx-auto py-20 bg-slate-900">
+    <section className="max-w-1920 mx-auto py-20 bg-slate-900" id="newsletter">
       <div className="flex flex-col md:flex-row items-center justify-between gap-4 max-w-6xl mx-auto px-6">
         <p className="flex-1 text-[42px] font-bold text-white text-center md:text-left">
           Join Our Newsletter

@@ -7,6 +7,10 @@
   --breakpoint-flowai: 90rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Inter Variable", sans-serif;
 }

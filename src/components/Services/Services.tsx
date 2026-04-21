@@ -5,7 +5,7 @@ import ServiceCard from "./ServiceCard";
 
 const Services = () => {
   return (
-    <section className="relative max-w-1920 mx-auto pt-35 md:pt-65">
+    <section className="relative max-w-1920 mx-auto pt-35 md:pt-65" id="services">
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex flex-col lg:flex-row items-center px-4 py-3 md:px-7 lg:py-10 rounded-2xl border border-slate-300">
           <h3 className="mb-4 lg:mb-0 text-center md:text-left text-[34px] font-extrabold">

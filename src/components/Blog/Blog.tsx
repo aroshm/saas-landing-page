@@ -31,7 +31,7 @@ const Blog = () => {
   const listPosts = posts.slice(2, 6);
 
   return (
-    <section className="py-20">
+    <section className="py-20" id="blog">
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex flex-col justify-between items-start mb-12 md:flex-row md:items-center">
           <h2 className="text-[42px] font-bold mb-2.5">
@@ -44,9 +44,8 @@ const Blog = () => {
 
         <div className="grid md:grid-cols-3 gap-8">
           {featuredPosts.map((post) => (
-            <div>
+            <div key={post.id}>
               <BlogCardLg
-                key={post.id}
                 title={post.title}
                 body={post.body}
                 image={`https://picsum.photos/seed/${post.id}/600/400`}

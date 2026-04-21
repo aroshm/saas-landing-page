@@ -8,7 +8,7 @@ import { testimonials } from "../../data/testimonials";
 
 const Testimonials = () => {
   return (
-    <section className="relative max-w-1920 mx-auto pt-32">
+    <section className="relative max-w-1920 mx-auto pt-32" id="testimonial">
       <div className="max-w-6xl mx-auto px-6">
         <p className="mb-4 text-center text-sm font-medium text-indigo-600">
           TESTIMONIALS
@@ -44,8 +44,8 @@ const Testimonials = () => {
             }}
             modules={[Navigation]}
           >
-            {testimonials.map((item) => (
-              <SwiperSlide key={item.testimonialImg}>
+            {testimonials.map((item, index) => (
+              <SwiperSlide key={index}>
                 <TestimonialItem
                   testimonialImg={item.testimonialImg}
                   testimonialContent={item.testimonialContent}

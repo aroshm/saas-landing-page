@@ -7,16 +7,13 @@ import {
 import Logo from "../assets/flow-ai-logo.png";
 
 const COMPANY_LINKS = [
-  "Our Process",
-  "Grow With Us",
-  "Services",
-  "Testimonials",
+  { label: "Our Process", link: "#process" },
+  { label: "Grow With Us", link: "#grow" },
+  { label: "Services", link: "#services" },
+  { label: "Testimonials", link: "#testimonial" },
 ] as const;
-const RESOURCE_LINKS = [
-  "Download",
-  "Blog",
-  "Join Our Newsletter",
-] as const;
+
+const RESOURCE_LINKS = [{label: "Download", link: "#download"}, {label: "Blog", link: "#blog"}, {label: "Join Our Newsletter", link: "#newsletter"}] as const;
 
 const SOCIAL_LINKS = [
   {
@@ -45,9 +42,13 @@ const Footer = () => {
             <h4 className="text-xl font-bold tracking-tight">Company</h4>
             <ul className="mt-4 space-y-4">
               {COMPANY_LINKS.map((link) => (
-                <li key={link}>
-                  <a href="#" className="hover:underline">
-                    {link}
+                <li key={link.label}>
+                  <a
+                    key={link.label}
+                    className="cursor-pointer"
+                    href={link.link}
+                  >
+                    {link.label}
                   </a>
                 </li>
               ))}
@@ -58,9 +59,13 @@ const Footer = () => {
             <h4 className="text-xl font-bold tracking-tight">Resources</h4>
             <ul className="mt-4 space-y-4">
               {RESOURCE_LINKS.map((link) => (
-                <li key={link}>
-                  <a href="#" className="hover:underline">
-                    {link}
+                <li key={link.label}>
+                  <a
+                    key={link.label}
+                    className="cursor-pointer"
+                    href={link.link}
+                  >
+                    {link.label}
                   </a>
                 </li>
               ))}

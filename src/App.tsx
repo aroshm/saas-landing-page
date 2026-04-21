@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import Operation from "./components/Operation";
 import Testimonials from "./components/Testimonials";
+import Blog from "./components/Blog";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Services />
       <Testimonials />
       <DownloadApp />
+      <Blog/>
     </>
   );
 }

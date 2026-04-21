@@ -5,7 +5,7 @@ const STORE_LINKS = [
     label: "Playstore",
     href: "#",
     icon: FaApple,
-    className: "bg-indigo-500 text-white hover:bg-indigo-600",
+    className: "bg-indigo-600 text-white hover:bg-indigo-600",
   },
   {
     label: "Google Play",
@@ -21,8 +21,10 @@ const DownloadApp = () => {
       className="relative max-w-1920 mx-auto bg-custom-grey overflow-hidden
   [clip-path:polygon(0%_0%,100%_0%,100%_75%,50%_100%,0%_75%)]
 
-  before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-24
-  before:bg-white before:[clip-path:ellipse(120%_100%_at_50%_0%)]"
+  
+
+  before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-30
+  before:bg-white before:[clip-path:polygon(0%_0%,100%_0%,100%_50%,50%_100%,0%_75%)]"
     >
       <div className="relative max-w-6xl mx-auto px-6 pt-32 pb-30 md:pt-52 md:pb-45">
         <div className="mx-auto max-w-4xl text-center">

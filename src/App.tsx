@@ -1,6 +1,7 @@
 import "./App.scss";
 import Services from "./components/Services";
 import Brands from "./components/Brands";
+import DownloadApp from "./components/DownloadApp";
 import GrowBusiness from "./components/GrowBusiness";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
@@ -17,6 +18,7 @@ function App() {
       <GrowBusiness />
       <Services />
       <Testimonials />
+      <DownloadApp />
     </>
   );
 }

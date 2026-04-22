@@ -15,7 +15,7 @@ export const testimonials: Testimonial[] = [
   {
     testimonialImg: TestimonialImg1,
     testimonialContent:
-      "Is be upon sang fond must shew. Really boy law county she unable her amber. friends you off its like like six. Among sex are leave law built now.",
+      "Is be upon sang fond must shew. Really boy law county she unable her amber. friends you off its like like six. Among value are leave law built now.",
     testimonialName: "Lana Peters",
     testimonialPosition: "CTO SmartWay",
     testimonialLogo: SegmentLogo,
@@ -23,7 +23,7 @@ export const testimonials: Testimonial[] = [
   {
     testimonialImg: TestimonialImg2,
     testimonialContent:
-      "Is be upon sang fond must shew. Really boy law county she unable her amber. friends you off its like like six. Among sex are leave law built now.",
+      "Is be upon sang fond must shew. Really boy law county she unable her amber. friends you off its like like six. Among value are leave law built now.",
     testimonialName: "Maddie Williams",
     testimonialPosition: "CEO StepUp",
     testimonialLogo: SegmentLogo,
@@ -31,7 +31,7 @@ export const testimonials: Testimonial[] = [
   {
     testimonialImg: TestimonialImg3,
     testimonialContent:
-      "Is be upon sang fond must shew. Really boy law county she unable her amber. friends you off its like like six. Among sex are leave law built now.",
+      "Is be upon sang fond must shew. Really boy law county she unable her amber. friends you off its like like six. Among value are leave law built now.",
     testimonialName: "Willow Sanders",
     testimonialPosition: "GM ApexDesign",
     testimonialLogo: SegmentLogo,
